@@ -10,7 +10,6 @@ public class PostfixMain {
         Q = Q.trim();
         Q = Q + ") ";
 
-        int total = Q.length();
 
         Postfix post = new Postfix(total);
         P = post.konversi(Q);
